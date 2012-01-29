@@ -9,7 +9,7 @@ http://github.com/chilicat/services-commandline
 
 ### How to install
 
-npm install commandline
+$ npm install commandline
 
 ### How to use it
 Setup the commandlne:
