@@ -12,7 +12,7 @@ http://github.com/chilicat/services-commandline
 $ npm install commandline
 
 ### How to use it
-Setup the commandlne:
+Setup the commandline:
 
 var Commandline = require("./commandline").Commandline;
 var cmd = new Commandline();
@@ -34,6 +34,8 @@ cmd.addCmd({
 });
 
 cmd.start();
+
+Now you are in a commandline. Enter _help_ to list all available commands. Enter _exit_ to remove to the node.js repl
 
 ### Commandline
 

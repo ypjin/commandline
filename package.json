@@ -1,7 +1,7 @@
 {
   "name"          : "commandline",
   
-  "description"   : "A simple commandline. It cn be extended via js-services",
+  "description"   : "A simple commandline.",
   
   "homepage"      : "",
   
@@ -11,7 +11,7 @@
   
   "contributors"  : [ ],
   
-  "repository"    : {"type": "git", "url": "git://github.com/commandline.git"},
+  "repository"    : {"type": "git", "url": "git://github.com/chilicat/commandline.git"},
 
   "main"          : "./lib/commandline",
 
