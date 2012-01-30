@@ -18,7 +18,7 @@ var Commandline = require("./commandline").Commandline;
 var cmd = new Commandline();
 
 // Add commands to the command line interface.
-// Commandline.Command
+// commandline-command
 cmd.addCmd({
     
     // the command name - e.g. (ls, mkdir, ...)
