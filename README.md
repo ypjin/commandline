@@ -1,4 +1,3 @@
-
 ### Commandline
 
 A extendable commandline. The commandline is actually just my first module which uses Services JS declarations to consume commands. Services JS is not a requirement to use the commandline. 
@@ -14,6 +13,7 @@ $ npm install commandline
 ### How to use it
 Setup the commandline:
 
+```
 var Commandline = require("./commandline").Commandline;
 var cmd = new Commandline();
 
@@ -34,6 +34,7 @@ cmd.addCmd({
 });
 
 cmd.start();
+```
 
 Now you are in a commandline. Enter _help_ to list all available commands. Enter _exit_ to remove to the node.js repl
 
@@ -45,15 +46,19 @@ The Commandline object provides methods to add and remove commands. The Commandl
 
 The _commandline-command_ must implement:
 
+```
 name: "command name"
 description: "command description"
 execute: function() {  }
+```
 
 
 ### Service-Class: commandline-commandlist
 the _commandline-commandlist_ must implement:
 
+```
 getCommandList: function() {}
+```
 
 The method must return a list of _commandline-command_'s
 
