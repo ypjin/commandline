@@ -2,8 +2,10 @@
 
 A extendable commandline. The commandline is actually just my first module which uses Services JS declarations to consume commands. Services JS is not a requirement to use the commandline. 
 
-Please also see: 
+Please see: 
+
 http://github.com/chilicat/services
+
 http://github.com/chilicat/services-commandline
 
 ### How to install
